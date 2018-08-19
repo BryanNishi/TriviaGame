@@ -1,0 +1,53 @@
+body,
+html {
+    height: 100%;
+    background-image: url(../images/bg2.jpg);
+    background-position: center center;
+    text-align: center;
+}
+
+.jumbotron {
+    opacity: 0.9;
+    /* background-image: url(../images/Monty_Python_bg.jpg);*/
+    background-size: cover;
+    background-position: center center;
+}
+
+h1 {
+    font-family: 'Ewert', cursive;
+    background: -webkit-linear-gradient(rgb(241, 241, 0), red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 50px;
+    color: rgb(230, 230, 0);
+    text-shadow: 2px 2px 0px #444;
+}
+
+p,
+h3 {
+    font-size: 25px;
+    font-family: 'Special Elite', cursive;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: 'Special Elite', cursive;
+}
+
+li {
+    font-size: 20px;
+    font-family: 'Special Elite', cursive;
+}
+
+li:hover {
+    text-align: center;
+    background-color: rgb(223, 226, 43);
+}
+
+img {
+    width: 325px;
+}
